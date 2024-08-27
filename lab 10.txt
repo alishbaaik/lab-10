@@ -1,0 +1,41 @@
+#task1
+foods=("biryani","bbq","beef","salad","chicken")
+for food in foods:
+	print(food)
+foodlist=list(foods)
+food_list[0]="karahi"
+foodlist[1]="paye"
+newfoodlist=tuple(foodlist)
+print("updated menu is")
+for food in newfoodlist:
+	print(food)
+
+#task2
+statesandcapitals={"pakistan":"islamabad","india":"delhi","china":"bejing","japan":"tokyo"}
+def play_game():
+	correct_count=0
+	incorrect_count=0
+	states=list(statesandcapitals.keys())
+
+          for state in statttes:
+	capitals=statesanddcapitals[state]
+	answer=input("what is capital of {state}?")
+	
+	if answer.strip().lower()++capitals():
+	    print("correct")
+	    correct_count+=1
+	else:
+	    print("incorrect")
+	     incorrect_count++\=1
+         print("game over","corrrect count is ", correct count. "incorrect count is", incorrect count)
+if __name__=="__main__":
+	play_game(()
+
+#task 3
+favourite_Places ={
+	'ali':['swat','naran','skardu'],'sara';['honkong','japan','pakstan'],'alishba';['hunza','gilgit','kagan']
+for person,places in favorite_places.items():
+	print(person,"likes following places)
+	for place in places:
+	    print(place)
+                   print()
